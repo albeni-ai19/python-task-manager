@@ -24,3 +24,6 @@ if __name__ == __main__:
 def delete_task(task_id):
     global tasks
     tasks = [t for t in tasks if t[id] != task_id]
+
+def validate_title(title):
+    return isinstance(title, str) and len(title.strip()) > 0
