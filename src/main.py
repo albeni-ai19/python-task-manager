@@ -27,3 +27,4 @@ def delete_task(task_id):
 
 def validate_title(title):
     return isinstance(title, str) and len(title.strip()) > 0
+# Version 1.1
